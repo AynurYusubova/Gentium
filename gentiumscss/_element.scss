@@ -1,0 +1,28 @@
+#element{
+    height: 50vh;
+    hr{
+        margin-bottom: 20px;
+    }
+    .item{
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 80px;
+            background-color: crimson;
+            top: 90px;
+            left: 50%;
+        }
+    }
+    .logo{
+        width: 100%;
+        .box{
+            width: 16.6%;
+            text-align: center;
+             img{
+                padding: 10px 0;
+             }
+        }
+    }
+}
